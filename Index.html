@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style/main.css">
 
     <!--onl css-->
-    <link rel="stylesheet" href="owl.carousel.min.css">
-    <link rel="stylesheet" href="owl.theme.default.min.css">
-    
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+
     <!--responsividade-->
-    <link rel="stylesheet" href="responsive.css">
-    
-    <title>Netflix Copy</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 
 </head>
+
 <body>
     <header>
         <div class="container">
             <h2 class="logo">
-                <a href="#"><img class="img-logo" src="logo (1).png" alt="Netflix" srcset=""></a>
+                <a href="inicio.html"><img class="img-logo" src="imagens/logo (1).png" alt="Netflix" srcset=""></a>
             </h2>
             <nav class="navbar">
                 <a href="#">Inicio</a>
@@ -38,195 +40,209 @@
 
                 </a>
                 <a href="#">
-                <i class="fas fa-bell"></i>
+                    <i class="fas fa-bell"></i>
                 </a>
                 <li>
-                <a href="#">
-                    <img class="menuAvatar" src="01.jpg">
-                    <i class="fas fa-sort-down"></i>
-                </a>
-                <ul>
-				
-                    <li><a href="#"><img class="avatar" src="02.jpg"> Usuário 02</a></li>
-                    <li><a href="#"><img class="avatar" src="03.jpg"> Usuário 03</a></li>
-                    <li><a href="#"><img class="avatar" src="04.jpg"> Usuário 04</a></li>
-                    <li><a href="#"><img class="avatar" src="05.jpg"> Kids</a></li>
-                    
+                    <a href="#">
+                        <img class="menuAvatar" src="imagens/01.jpg">
+                        <i class="fas fa-sort-down"></i>
+                    </a>
                     <ul>
-					<li><a href="#">Gerenciar perfis</a></li>
-                    <li><a href="#">Conta</a></li>
-                    <li><a href="#">Sair da Netflix</a></li>
+
+                        <li>
+                            <a href="#"><img class="avatar" src="imagens/02.jpg"> Usuário 02</a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="avatar" src="imagens/03.jpg"> Usuário 03</a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="avatar" src="imagens/04.jpg"> Usuário 04</a>
+                        </li>
+                        <li>
+                            <a href="#"><img class="avatar" src="imagens/05.jpg"> Kids</a>
+                        </li>
+
+                        <ul>
+                            <li><a href="#">Gerenciar perfis</a></li>
+                            <li><a href="#">Conta</a></li>
+                            <li><a href="#">Sair da Netflix</a></li>
+                        </ul>
+
                     </ul>
-					
-                  </ul>
-               </li>
+                </li>
             </nav>
         </div>
     </header>
-<main>
-    <div class="filme-principal">
-        <div class="container">
-            <img class="titulo" src="Dark.png" alt="Imagem-de-capa">
-            <p class='descricao' align="justify">
-            &nbsp;&nbsp;&nbsp;&nbsp;Os mistérios sombrios de uma pequena cidade alemã são expostos quando duas crianças desaparecem.
-			Enquanto as famílias procuram os dois desaparecidos, eles descobrem uma trama de indivíduos conectados
-			com a história conturbada da cidade.
-            </p>
-            <div class="botoes">
-                <button role="button" class="botao1">
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <img class="titulo" src="imagens/Dark.png" alt="Imagem-de-capa">
+                <p class='descricao' align="justify">
+                    &nbsp;&nbsp;&nbsp;&nbsp;Os mistérios sombrios de uma pequena cidade alemã são expostos quando duas crianças desaparecem. Enquanto as famílias procuram os dois desaparecidos, eles descobrem uma trama de indivíduos conectados com a história conturbada da
+                    cidade.
+                </p>
+                <div class="botoes">
+                    <button role="button" class="botao1">
                      <i class="fas fa-play"></i> Assistir
                 </button>
-                <button role="button" class="botao2">
+                    <button role="button" class="botao2">
                      <i class="fas fa-info-circle"></i>Mais informações
                 </button>
+                </div>
             </div>
-       </div>
+        </div>
+    </main>
+    <br /><br />
+    <p class="titulocarousel" id="minhalista">Minha Lista</p>
+    <div class="carrosel-filmes">
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="imagens/dark.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/bleach.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/demon.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/food.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/kakegurui.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/hellsing.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/nunny.jpg" alt="" srcset="">
+            </div>
+        </div>
     </div>
-</main>
-<br /><br />
-<p class="titulocarousel" id="minhalista">Minha Lista</p>
-<div class="carrosel-filmes">
+    <br /><br />
+    <p class="titulocarousel" id="emalta">Em Alta</p>
+    <div class="carrosel-filmes">
 
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <img class="box-filme" src="dark.jpg" alt="" srcset="">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="imagens/shaman.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/dark.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/kakegurui.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/kabaneri.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/hellsing.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/bleach.jpg" alt="" srcset="">
+            </div>
         </div>
-        <div class="item">
-            <img class="box-filme" src="bleach.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="demon.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="food.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="kakegurui.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="hellsing.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="nunny.jpg" alt="" srcset="">
-        </div>
-     </div>
-</div>
-<br /><br />
-<p class="titulocarousel" id="emalta">Em Alta</p>
-<div class="carrosel-filmes">
+    </div>
+    <br /><br />
+    <p class="titulocarousel" id="netflix">Originais Netflix</p>
+    <div class="carrosel-filmes">
 
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <img class="box-filme" src="shaman.jpg" alt="" srcset="">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="imagens/eden.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/kakeg.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/Spriggan.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/dark big.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/evangelion.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/fruit.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/your.jpg" alt="" srcset="">
+            </div>
         </div>
-        <div class="item">
-            <img class="box-filme" src="dark.jpg" alt="" srcset="">
+    </div><br /><br />
+    <p class="titulocarousel">Séries para toda familia</p>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="imagens/bleach.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/demon.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/food.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/kakegurui.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/hellsing.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/the senven.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/sword.jpg" alt="" srcset="">
+            </div>
         </div>
-        <div class="item">
-            <img class="box-filme" src="kakegurui.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="kabaneri.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="hellsing.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="bleach.jpg" alt="" srcset="">
-        </div>
-     </div>
-</div>
-<br /><br />
-<p class="titulocarousel" id="netflix">Originais Netflix</p>
-<div class="carrosel-filmes">
+    </div>
+    <br /><br />
+    <p class="titulocarousel">Porque você assistiu Bleach</p>
+    <div class="carrosel-filmes">
 
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <img class="box-filme" src="eden.jpg" alt="" srcset="">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="imagens/jojo.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/cavaleiross.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/violet.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/shaman.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/kabaneri.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/kengan.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/hi score.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/ragnarok.jpg" alt="" srcset="">
+            </div>
         </div>
-        <div class="item">
-            <img class="box-filme" src="kakeg.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="Spriggan.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="dark big.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="evangelion.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="fruit.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="your.jpg" alt="" srcset="">
-        </div>
-     </div>
-</div><br /><br />
-<p class="titulocarousel">Séries para toda familia</p>
-<div class="carrosel-filmes">
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <img class="box-filme" src="bleach.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="demon.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="food.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="kakegurui.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="hellsing.jpg" alt="" srcset="">
-        </div>
-     </div>
-</div>
-<br /><br />
-<p class="titulocarousel">Porque você assistiu Bleach</p>
-<div class="carrosel-filmes">
-
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <img class="box-filme" src="jojo.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="cavaleiross.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="violet.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="shaman.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="kabaneri.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="kengan.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="hi score.jpg" alt="" srcset="">
-        </div>
-        <div class="item">
-            <img class="box-filme" src="ragnarok.jpg" alt="" srcset="">
-        </div>
-     </div>
-</div>
+    </div>
 
 
-<script src="https://kit.fontawesome.com/2af373df04.js" crossorigin="anonymous"></script>
-<script src="jquery.min.js"></script>
-<script src="owl.carousel.min.js"></script>
-<script src="setup.js"></script>
+    <script src="https://kit.fontawesome.com/2af373df04.js" crossorigin="anonymous"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/owl.carousel.min.js"></script>
+    <script src="scripts/setup.js"></script>
 
-<div class="footer">
-    <footer>
-        <p>© Projeto DIO. Recriando a Interface do Netflix <a href="https://www.linkedin.com/in/jeferson-ss-junior/"> Jeferson Junior </a></p>
-    </footer>
-</div>
+    <div class="footer">
+        <footer>
+            <p>© Projeto DIO. Recriando a Interface do Netflix <a href="https://www.linkedin.com/in/jeferson-ss-junior/"> Jeferson Junior </a></p>
+        </footer>
+    </div>
 
 </body>
+
 </html>
